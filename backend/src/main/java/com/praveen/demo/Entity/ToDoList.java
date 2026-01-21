@@ -18,6 +18,7 @@ public class ToDoList {
     @Column(name="status")
     private String status;
     // constructor
+    // second
     public ToDoList() {
     }
 
