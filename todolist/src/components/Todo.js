@@ -3,7 +3,7 @@ import { getTasks, addTask, updateTask, deleteTask } from "./api";
 
 function TaskSection({task,data,type,onEdit,onDelete,onMove,activeEditSection,setActiveEditSection}) {
   const isEditing = activeEditSection === type;
-
+  // comment
   return (
     <div className="section">
       <div className="section-head">

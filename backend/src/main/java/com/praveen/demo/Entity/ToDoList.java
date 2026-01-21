@@ -17,7 +17,7 @@ public class ToDoList {
     private String task;
     @Column(name="status")
     private String status;
-
+    // constructor
     public ToDoList() {
     }
 
